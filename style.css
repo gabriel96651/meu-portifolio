@@ -15,6 +15,7 @@
     
     
     header {
+        display: block;
         color: #2a6ef2;
         width: 100%;
     }
@@ -24,10 +25,13 @@
         align-items: center;
         justify-content: center;
         margin-top: 20px;
+        margin-bottom: 10px;
         color: #2a6ef2;
        }
-    
-   
+
+       nav #links{
+        display: block;
+       }
     
     main {
         height: 100vh;
@@ -112,13 +116,10 @@
         color: #2a6ef2;
        }
     
-       nav#links {
-        display: flex;
-        align-items: end;
-        justify-content: end;
-        gap: 50px;
-        margin-right: 20px;
+       nav {
+        display: flex, inline; 
     }
+
 
    .lin, a {
         list-style: none;
@@ -222,12 +223,19 @@
         color: #2a6ef2;
        }
     
-    header #menu {
-        display: flex;
-        justify-content: end;
-        margin-left: auto;
-        margin-right: 20px;
-        margin-top: -25px;
+       nav {
+        display: block;
+    }
+
+   .lin, a {
+    list-style: none;
+        text-decoration: none;
+        color: #000000;
+        transition: all .1ms;
+    }
+
+    #links a:hover {
+        border-bottom: 1px solid #2a6ef2;
     }
     
     main {
@@ -312,12 +320,19 @@ header h1{
     color: #2a6ef2;
    }
 
-header #menu {
-    display: flex;
-    justify-content: end;
-    margin-left: auto;
-    margin-right: 20px;
-    margin-top: -25px;
+   nav{
+    display: block;
+}
+
+.lin, a {
+list-style: none;
+    text-decoration: none;
+    color: #000000;
+    transition: all .1ms;
+}
+
+#links a:hover {
+    border-bottom: 1px solid #2a6ef2;
 }
 
 main {
@@ -485,14 +500,6 @@ main {
         justify-content: center;
         font-size: 25px;
         gap: 25px;
-    }
-
-    #social-media icon{
-        transition: all .1s;
-    }
-
-    #social-media icon:hover {
-        transform: scale(1.2);
     }
 
 article {
