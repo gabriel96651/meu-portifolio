@@ -8,7 +8,7 @@
     font-family: inter, arial;
 }
 
-@media (min-width: 450px) and (max-width: 600px){
+@media (min-width: 400px) and (max-width: 600px){
    body {
     width: 100vw;
     height: 100vh;
