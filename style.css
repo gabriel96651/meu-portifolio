@@ -12,7 +12,7 @@
 
                                 /*dispositivos pequenos*/
 /*IOS*/
-@media screen and (-webkit-min-device-pixel-ratio: 350px) and (-webkit-max-device-pixel-ratio: 768px){
+@media screen and (-webkit-min-device-pixel-ratio: 300px) and (-webkit-max-device-pixel-ratio: 768px){
     #navegation {
         display: flex;
         color: rgb(0, 0, 0);
