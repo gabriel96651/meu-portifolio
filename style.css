@@ -206,8 +206,11 @@ h5 {
 
 #btn1:hover {
     background-color: #2460d7;
+    padding-bottom: 100px;
 }
+
 }
+
 /*ANDROID*/
 @media (min-width: 350px) and (max-width: 768px){
 
@@ -403,6 +406,60 @@ h5 {
 #btn1:hover {
     background-color: #2460d7;
 }
+
+/*page 02/03*/
+#aboutme {
+    margin-top: 85%;
+}
+
+#title {
+    font-size: 30px;
+    color: #2a6ef2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre-mim {
+    padding: 0px 15%;
+    margin-top: 20%;
+    color: #818181;
+}
+
+#CARDS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards {
+    width: 180px;
+    background-color: #2a6df2b7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.cards h3 {
+    font-size: 20px;
+    color: #f8f8f8;
+}
+
+.cards p {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+/*page 03/03*/
+
+
+
 }
 
                             /*dispositivos medios*/
