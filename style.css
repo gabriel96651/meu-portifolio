@@ -409,7 +409,7 @@ h5 {
 
 /*page 02/03*/
 #aboutme {
-    margin-top: 85%;
+    margin-top: 75%;
 }
 
 #title {
@@ -422,8 +422,8 @@ h5 {
 
 #sobre-mim {
     padding: 0px 15%;
-    margin-top: 20%;
-    color: #818181;
+    margin-top: 5%;
+    color: #383838;
 }
 
 #CARDS {
@@ -431,6 +431,7 @@ h5 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 20px;
 }
 
 .cards {
@@ -440,7 +441,7 @@ h5 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 15px;
     padding: 50px 30px;
     border-radius: 10px;
     margin-bottom: 10%;
@@ -452,13 +453,14 @@ h5 {
 }
 
 .cards p {
+    margin-top: 10%;
     font-size: 15px;
     color: rgb(255, 255, 255);
 }
 
 /*page 03/03*/
 
-
+  
 
 }
 
