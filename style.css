@@ -13,8 +13,6 @@
                                 /*dispositivos pequenos*/
 /*IOS*/
 @media screen and (-webkit-min-device-pixel-ratio: 300px) and (-webkit-max-device-pixel-ratio: 768px){
-
-
     header {
         padding: 16px;
     }
@@ -206,9 +204,111 @@ h5 {
 
 #btn1:hover {
     background-color: #2460d7;
-    padding-bottom: 100px;
 }
 
+/*page 02/03*/
+#aboutme {
+    margin-top: 75%;
+}
+
+#title {
+    font-size: 30px;
+    color: #2a6ef2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sobre-mim {
+    padding: 0px 15%;
+    margin-top: 5%;
+    color: #383838;
+}
+
+#CARDS {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.cards {
+    width: 180px;
+    background-color: #2a6df2b7;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    padding: 50px 30px;
+    border-radius: 10px;
+    margin-bottom: 10%;
+}
+
+.cards h3 {
+    font-size: 20px;
+    color: #f8f8f8;
+}
+
+.cards p {
+    margin-top: 10%;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+
+#page03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+
+#page03 #section {
+color: #2a6ef2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#page03 h2{
+    font-size: 30px;
+}
+
+#page03 section p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#card02 {
+    display: flex;
+    margin: 25% 0px;
+    background-color: rgba(236, 235, 235, 0.828);
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px 35px;
+}
+
+#card02 #col01 {
+    margin-right: 30px;
+}
+
+#card02 ul li {
+    margin-bottom: 30px;
+}
+
+#card02 ul li h3 {
+    font-size: 20px;
+    color: #2a6ef2;
+}
+
+#card02 ul li p {
+    color: rgb(171, 171, 171);
+}
 }
 
 /*ANDROID*/
@@ -457,6 +557,62 @@ h5 {
     font-size: 15px;
     color: rgb(255, 255, 255);
 }
+
+#page03 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+}
+
+#page03 #section {
+color: #2a6ef2;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+#page03 h2{
+    font-size: 30px;
+}
+
+#page03 section p {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+#card02 {
+    display: flex;
+    margin: 25% 0px;
+    background-color: rgba(236, 235, 235, 0.828);
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    padding: 25px 35px;
+}
+
+#card02 #col01 {
+    margin-right: 30px;
+}
+
+#card02 ul li {
+    margin-bottom: 30px;
+}
+
+#card02 ul li h3 {
+    font-size: 20px;
+    color: #2a6ef2;
+}
+
+#card02 ul li p {
+    color: rgb(171, 171, 171);
+}
+
+
+
 
 /*page 03/03*/
 
