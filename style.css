@@ -191,19 +191,8 @@ h5 {
     color: black;
 }
 
-#btn1 {
-    padding: 10px 25px;
-    border: none;
-    background-color: #2a6ef2;
-    color: white;
-    border-radius: 35px;
-    margin-top: 8px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-#btn1:hover {
-    background-color: #2460d7;
+img#note {
+    display: none;
 }
 
 /*page 02/03*/
@@ -493,19 +482,8 @@ h5 {
     color: black;
 }
 
-#btn1 {
-    padding: 10px 25px;
-    border: none;
-    background-color: #2a6ef2;
-    color: white;
-    border-radius: 35px;
-    margin-top: 8px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-#btn1:hover {
-    background-color: #2460d7;
+img#note {
+    display: none;
 }
 
 /*page 02/03*/
@@ -805,19 +783,8 @@ h5 {
     color: black;
 }
 
-#btn1 {
-    padding: 10px 25px;
-    border: none;
-    background-color: #2a6ef2;
-    color: white;
-    border-radius: 35px;
-    margin-top: 8px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-#btn1:hover {
-    background-color: #2460d7;
+img#note {
+    display: none;
 }
 
 /*page 02/03*/
@@ -1107,19 +1074,8 @@ h5 {
     color: black;
 }
 
-#btn1 {
-    padding: 10px 25px;
-    border: none;
-    background-color: #2a6ef2;
-    color: white;
-    border-radius: 35px;
-    margin-top: 8px;
-    cursor: pointer;
-    transition: all 0.5s;
-}
-
-#btn1:hover {
-    background-color: #2460d7;
+img#note {
+    display: none;
 }
 
 /*page 02/03*/
