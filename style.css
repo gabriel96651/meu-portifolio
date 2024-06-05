@@ -17,6 +17,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
     }
 
     header #logo {    
@@ -35,12 +36,12 @@
         justify-content: space-between;
     }
 
-    .nav-list {
+    #nav-list {
         display: none;
         gap: 32px;
     }
 
-    .nav-list a {
+    #nav-list li {
         display: none;
     }
         
@@ -50,6 +51,7 @@ div#principal {
     display: flex;
     height: 100vh;
     margin-left: -50px;
+    align-items: center;
 }
 
 main #apres {
@@ -242,12 +244,12 @@ align-items: center;
         justify-content: space-between;
     }
 
-    .nav-list {
+    #nav-list {
         display: none;
         gap: 32px;
     }
 
-    .nav-list a {
+    #nav-list li {
         display: none;
     }
         
@@ -462,7 +464,7 @@ align-items: center;
         display: none;
     }
 
-    #nav-list a {
+    #nav-list li {
         display: none;
     }
 
@@ -679,7 +681,7 @@ align-items: center;
         display: none;
     }
 
-    #nav-list a {
+    #nav-list li {
         display: none;
     }
 
@@ -891,12 +893,12 @@ align-items: center;
         justify-content: space-between;
     }
 
-    .nav-list {
+    #nav-list {
         display: flex;
         gap: 55px;
     }
 
-    .nav-list a {
+    #nav-list a {
         font-size: 10px;
         color: #737373;
         padding-block: 16px;
@@ -994,7 +996,7 @@ flex-direction: column;
 }
 
 #aboutme #CARDS p {
-    width: 600px;
+    width: 250px;
 }
 
 
