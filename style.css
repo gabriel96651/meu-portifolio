@@ -97,6 +97,7 @@
     section button {
         padding: 15px 23px;
         width: 410px;
+        margin-top: 45px;
         border-radius: 18px;
         border: none;
         font-size: 20px;
