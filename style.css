@@ -127,7 +127,7 @@
         0%,20% {
             content: "Web Developer";
         }
-        21%,40% {
+        20%,40% {
             content: "Front-end ";
         }
         41%,60% {
@@ -277,6 +277,241 @@
     color: #3377dd;
     font-size: 30px;
     font-weight: bold;
+}
+
+/*page-04*/
+
+div#page-04 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#page-04 h2 {
+    margin: 35px;
+    font-size: 25px;
+}
+
+div#page-04 #linha-01 {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15em;
+}
+
+div#page-04 #linha-01 .conjunto {
+    border: 1px solid rgb(255, 246, 246);
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+div#page-04 #linha-01 .conjunto .card-principal {
+    border: 1px solid blue;
+    height: 9em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5f9fffd4;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-01 .conjunto .card-principal:hover {
+    background-color: #09377d;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 {
+    height: 3em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .deploy, .view {
+    border: 1px solid #086afc;
+    width: 5.7em;
+    height: 3em;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .deploy {
+    background-color: #086afc;
+    color: white;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .deploy:hover {
+    background-color: #6797e0;
+    color: white;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .view {
+    background-color: #ffffff;
+    color: #086afc;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .view:hover {
+    background-color: #6797e0;
+    color: #ffffff;
+}
+
+/*linha 02*/
+div#page-04 #linha-02 {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15em;
+}
+
+div#page-04 #linha-02 .conjunto {
+    border: 1px solid rgb(255, 246, 246);
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+div#page-04 #linha-02 .conjunto .card-principal {
+    border: 1px solid blue;
+    height: 9em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5f9fffd4;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-02 .conjunto .card-principal:hover {
+    background-color: #09377d;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 {
+    height: 3em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .deploy, .view {
+    border: 1px solid #086afc;
+    width: 5.7em;
+    height: 3em;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .deploy {
+    background-color: #086afc;
+    color: white;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .deploy:hover {
+    background-color: #6797e0;
+    color: white;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .view {
+    background-color: #ffffff;
+    color: #086afc;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .view:hover {
+    background-color: #6797e0;
+    color: #ffffff;
+}
+
+/*linha 03*/
+div#page-04 #linha-03 {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15em;
+}
+
+div#page-04 #linha-03 .conjunto {
+    border: 1px solid rgb(255, 246, 246);
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+div#page-04 #linha-03 .conjunto .card-principal {
+    border: 1px solid blue;
+    height: 9em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5f9fffd4;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-03 .conjunto .card-principal:hover {
+    background-color: #09377d;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 {
+    height: 3em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .deploy, .view {
+    border: 1px solid #086afc;
+    width: 5.7em;
+    height: 3em;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .deploy {
+    background-color: #086afc;
+    color: white;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .deploy:hover {
+    background-color: #6797e0;
+    color: white;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .view {
+    background-color: #ffffff;
+    color: #086afc;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .view:hover {
+    background-color: #6797e0;
+    color: #ffffff;
 }
 }
 
@@ -571,6 +806,240 @@
     color: #3377dd;
     font-size: 30px;
     font-weight: bold;
+}
+
+/*PAGE-04*/
+div#page-04 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+div#page-04 h2 {
+    margin: 35px;
+    font-size: 25px;
+}
+
+div#page-04 #linha-01 {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15em;
+}
+
+div#page-04 #linha-01 .conjunto {
+    border: 1px solid rgb(255, 246, 246);
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+div#page-04 #linha-01 .conjunto .card-principal {
+    border: 1px solid blue;
+    height: 9em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5f9fffd4;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-01 .conjunto .card-principal:hover {
+    background-color: #09377d;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 {
+    height: 3em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .deploy, .view {
+    border: 1px solid #086afc;
+    width: 5.7em;
+    height: 3em;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .deploy {
+    background-color: #086afc;
+    color: white;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .deploy:hover {
+    background-color: #6797e0;
+    color: white;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .view {
+    background-color: #ffffff;
+    color: #086afc;
+}
+
+div#page-04 #linha-01 .conjunto .links-01 .view:hover {
+    background-color: #6797e0;
+    color: #ffffff;
+}
+
+/*linha 02*/
+div#page-04 #linha-02 {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15em;
+}
+
+div#page-04 #linha-02 .conjunto {
+    border: 1px solid rgb(255, 246, 246);
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+div#page-04 #linha-02 .conjunto .card-principal {
+    border: 1px solid blue;
+    height: 9em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5f9fffd4;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-02 .conjunto .card-principal:hover {
+    background-color: #09377d;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 {
+    height: 3em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .deploy, .view {
+    border: 1px solid #086afc;
+    width: 5.7em;
+    height: 3em;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .deploy {
+    background-color: #086afc;
+    color: white;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .deploy:hover {
+    background-color: #6797e0;
+    color: white;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .view {
+    background-color: #ffffff;
+    color: #086afc;
+}
+
+div#page-04 #linha-02 .conjunto .links-02 .view:hover {
+    background-color: #6797e0;
+    color: #ffffff;
+}
+
+/*linha 03*/
+div#page-04 #linha-03 {
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15em;
+}
+
+div#page-04 #linha-03 .conjunto {
+    border: 1px solid rgb(255, 246, 246);
+    width: 12em;
+    display: flex;
+    flex-direction: column;
+}
+
+div#page-04 #linha-03 .conjunto .card-principal {
+    border: 1px solid blue;
+    height: 9em;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #5f9fffd4;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-03 .conjunto .card-principal:hover {
+    background-color: #09377d;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 {
+    height: 3em;
+    margin-top: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .deploy, .view {
+    border: 1px solid #086afc;
+    width: 5.7em;
+    height: 3em;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .deploy {
+    background-color: #086afc;
+    color: white;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .deploy:hover {
+    background-color: #6797e0;
+    color: white;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .view {
+    background-color: #ffffff;
+    color: #086afc;
+}
+
+div#page-04 #linha-03 .conjunto .links-03 .view:hover {
+    background-color: #6797e0;
+    color: #ffffff;
 }
 
 
