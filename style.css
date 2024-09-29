@@ -82,10 +82,63 @@
         font-weight: 500;
     }
 
-    section p#developer {
-        color: #07367d;
+    .txt-animado {
+        font-size: 30px;
         font-weight: bold;
-        font-size: 27px;
+    }
+
+    .txt-animado span {
+        position: relative;
+    }
+
+    .txt-animado span::before {
+        content: "";
+        color: #07367d;
+        animation: palavras 15s infinite;
+    }
+
+    .txt-animado span::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        border-left: 2px solid white;
+        right: -10px;
+        animation: cursor .9s infinite, digita 20s steps(15) infinite ;
+        width: calc(100% + 12px);
+        background-color: #6797e0;
+    }
+
+    @keyframes digita {
+        10%, 15%, 30%, 35%, 50%, 70%, 75%, 90%, 95% {
+            width: 0;
+        } 
+        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+            width: calc(100% + 12px);
+        }
+    }
+
+    @keyframes cursor {
+        0% {
+            border-left: 2px solid #6797e0;
+        }
+    }
+
+    @keyframes palavras {
+        0%,20% {
+            content: "Web Developer";
+        }
+        21%,40% {
+            content: "Front-end Developer";
+        }
+        41%,60% {
+            content: "Web Designer";
+        }
+        61%,80% {
+            content: "Front-end Developer";
+        }
+        81%,100% {
+            content: "Web Developer";
+        }
     }
 
     section #btn {
@@ -241,7 +294,7 @@
             /*page-01*/
 
     div#page-01 {
-        background: linear-gradient(to bottom,#086afc, #C0D9FF);
+        background-color: #6797e0;
         height: 110vh;
     }
 
@@ -308,15 +361,76 @@
         font-weight: 500;
     }
 
+    /*
     section p#developer {
         color: #07367d;
         font-weight: bold;
         font-size: 27px;
     }
+    */
+
+    .txt-animado {
+        font-size: 30px;
+        font-weight: bold;
+    }
+
+    .txt-animado span {
+        position: relative;
+    }
+
+    .txt-animado span::before {
+        content: "";
+        color: #07367d;
+        animation: palavras 15s infinite;
+    }
+
+    .txt-animado span::after {
+        content: "";
+        position: absolute;
+        height: 100%;
+        border-left: 2px solid white;
+        right: -10px;
+        animation: cursor .9s infinite, digita 20s steps(15) infinite ;
+        width: calc(100% + 12px);
+        background-color: #6797e0;
+    }
+
+    @keyframes digita {
+        10%, 15%, 30%, 35%, 50%, 70%, 75%, 90%, 95% {
+            width: 0;
+        } 
+        5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+            width: calc(100% + 12px);
+        }
+    }
+
+    @keyframes cursor {
+        0% {
+            border-left: 2px solid #6797e0;
+        }
+    }
+
+    @keyframes palavras {
+        0%,20% {
+            content: "Web Developer";
+        }
+        21%,40% {
+            content: "Front-end Developer";
+        }
+        41%,60% {
+            content: "Web Designer";
+        }
+        61%,80% {
+            content: "Front-end Developer";
+        }
+        81%,100% {
+            content: "Web Developer";
+        }
+    }
 
     section #btn {
         display: flex;
-        width: 380px;
+        width: 400px;
         gap: 30px;
         margin-top: 2em;
     }
