@@ -33,7 +33,10 @@
     }
 
     header #navegation {
-        display: none;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 8vh;
     }
 
     header #menu {
@@ -122,6 +125,64 @@
         background-color: #3377dd;
         color: #ffffff;
     }
+
+     /*page-02*/
+
+     #page-02 {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page-02 #wellcome {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 8em;
+        gap: 30px;
+    }
+
+    #page-02 #wellcome h2 {
+        color: black;
+        font-size: 30px;
+        font-family: poppins, Arial, Helvetica, sans-serif;
+    }
+
+    #page-02 #wellcome p {
+        color: rgba(0, 0, 0, 0.539);
+        width: 420px;
+}
+
+#page-02 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-02 #cards .card {
+    background-color: white;
+    margin-top: 30px;
+    width: 257px;
+    height: 235px;
+    border: 2px solid #086afc;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#page-02 #cards .card h2 {
+    color: black;
+    position: relative;
+    top: 20px;
+}
+
+#page-02 #cards .card p {
+    color: rgba(0, 0, 0, 0.573);
+    position: relative;
+    top: 50px;
+}
 }
 
 /*dispositivos medios*/
@@ -135,6 +196,8 @@
 
 @media (min-width: 300px) and (max-width: 768px) {
 
+            /*page-01*/
+
     div#page-01 {
         background: linear-gradient(to bottom,#086afc, #C0D9FF);
         height: 100vh;
@@ -143,7 +206,7 @@
     header {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     header h1 {
@@ -151,17 +214,19 @@
         color: #07367d;
         font-family: poppins,Arial, Helvetica, sans-serif;
         font-weight: bolder;
+        font-size: 50px;
     }
 
     header #navegation {
         display: none;
     }
 
+    header #links {
+        display: flex;
+    }
+
     header #menu {
-        color: #07367d;
-        position: relative;
-        top: 0.2em;
-        left: 8em;
+        display: none;
     }
 
     div#article {
@@ -169,8 +234,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative;
-        top: 7em;
+        margin-top: 7em;
     }
 
     section {
@@ -198,7 +262,7 @@
     }
 
     section p#rio {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 500;
     }
 
@@ -211,12 +275,11 @@
     section #btn {
         display: flex;
         gap: 30px;
-        position: relative;
-        top: 2em;
+        margin-top: 2em;
     }
 
     section button {
-        padding: 10px 34px;
+        padding: 15px 45px;
         border-radius: 18px;
         border: none;
         font-weight: 500;
@@ -243,6 +306,64 @@
         background-color: #3377dd;
         color: #ffffff;
     }
+
+    /*page-02*/
+
+    #page-02 {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #page-02 #wellcome {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 8em;
+        gap: 30px;
+    }
+
+    #page-02 #wellcome h2 {
+        color: black;
+        font-size: 30px;
+        font-family: poppins, Arial, Helvetica, sans-serif;
+    }
+
+    #page-02 #wellcome p {
+        color: rgba(0, 0, 0, 0.539);
+        width: 420px;
+}
+
+#page-02 #cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-02 #cards .card {
+    background-color: white;
+    margin-top: 30px;
+    width: 257px;
+    height: 235px;
+    border: 2px solid #086afc;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+#page-02 #cards .card h2 {
+    color: black;
+    position: relative;
+    top: 20px;
+}
+
+#page-02 #cards .card p {
+    color: rgba(0, 0, 0, 0.573);
+    position: relative;
+    top: 50px;
+}
 
 }
 
