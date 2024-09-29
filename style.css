@@ -80,14 +80,14 @@
     }
 
     section p#rio {
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 500;
     }
 
     section p#rio strong {
         color: #07367d;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 20px;
     }
 
     section #btn {
@@ -98,10 +98,11 @@
     }
 
     section button {
-        padding: 10px 34px;
+        padding: 20px 40px;
         border-radius: 18px;
         border: none;
         font-weight: 500;
+        font-size: 30px;
         cursor: pointer;
     }
 
