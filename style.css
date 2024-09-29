@@ -301,7 +301,7 @@ div#page-04 #linha-01 {
 }
 
 div#page-04 #linha-01 .conjunto {
-    width: 12em;
+    width: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -333,7 +333,7 @@ div#page-04 #linha-01 .conjunto .links-01 {
 
 div#page-04 #linha-01 .conjunto .links-01 .deploy, .view {
     border: 1px solid #086afc;
-    width: 5.7em;
+    width: 5.1em;
     height: 3em;
     border-radius: 10px;
 
@@ -374,7 +374,7 @@ div#page-04 #linha-02 {
 }
 
 div#page-04 #linha-02 .conjunto {
-    width: 12em;
+    width: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -406,7 +406,7 @@ div#page-04 #linha-02 .conjunto .links-02 {
 
 div#page-04 #linha-02 .conjunto .links-02 .deploy, .view {
     border: 1px solid #086afc;
-    width: 5.7em;
+    width: 5.1em;
     height: 3em;
     border-radius: 10px;
 
@@ -447,7 +447,7 @@ div#page-04 #linha-03 {
 }
 
 div#page-04 #linha-03 .conjunto {
-    width: 12em;
+    width: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -479,7 +479,7 @@ div#page-04 #linha-03 .conjunto .links-03 {
 
 div#page-04 #linha-03 .conjunto .links-03 .deploy, .view {
     border: 1px solid #086afc;
-    width: 5.7em;
+    width: 5.1em;
     height: 3em;
     border-radius: 10px;
 
@@ -828,7 +828,7 @@ div#page-04 #linha-01 {
 }
 
 div#page-04 #linha-01 .conjunto {
-    width: 12em;
+    width: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -860,7 +860,7 @@ div#page-04 #linha-01 .conjunto .links-01 {
 
 div#page-04 #linha-01 .conjunto .links-01 .deploy, .view {
     border: 1px solid #086afc;
-    width: 5.7em;
+    width: 4.7em;
     height: 3em;
     border-radius: 10px;
 
@@ -901,7 +901,7 @@ div#page-04 #linha-02 {
 }
 
 div#page-04 #linha-02 .conjunto {
-    width: 12em;
+    width: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -933,7 +933,7 @@ div#page-04 #linha-02 .conjunto .links-02 {
 
 div#page-04 #linha-02 .conjunto .links-02 .deploy, .view {
     border: 1px solid #086afc;
-    width: 5.7em;
+    width: 4.7em;
     height: 3em;
     border-radius: 10px;
 
@@ -974,7 +974,7 @@ div#page-04 #linha-03 {
 }
 
 div#page-04 #linha-03 .conjunto {
-    width: 12em;
+    width: 10em;
     display: flex;
     flex-direction: column;
 }
@@ -1006,7 +1006,7 @@ div#page-04 #linha-03 .conjunto .links-03 {
 
 div#page-04 #linha-03 .conjunto .links-03 .deploy, .view {
     border: 1px solid #086afc;
-    width: 5.7em;
+    width: 4.7em;
     height: 3em;
     border-radius: 10px;
 
