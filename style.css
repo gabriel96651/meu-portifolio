@@ -96,7 +96,7 @@
 
     section button {
         padding: 15px 23px;
-        width: 410px;
+        width: 425px;
         margin-top: 45px;
         border-radius: 18px;
         border: none;
@@ -199,7 +199,7 @@
 }
 
 #page-03 #baloes {
-    width: 400px;
+    width: 340px;
     display: flex;
     flex-direction: column;
 }
@@ -209,19 +209,19 @@
     padding: 40px 65px 40px 20px;
     margin-top: 2em;
     margin-bottom: 20px;
-    border: 1px solid #3377dd9b;
+    border: 1px solid #3377dd;
     border-radius: 20px;
 }
 
 #page-03 #baloes .balao .year {
-    color: #086afc;
+    color: #3377dd;
     margin-bottom: 10px;
     font-size: 25px;
     font-weight: bold;
 }
 
 #page-03 #baloes .balao h2 {
-    color: #086afc;
+    color: #3377dd;
     font-size: 30px;
     font-weight: bold;
 }
@@ -426,7 +426,7 @@
 }
 
 #page-03 #baloes {
-    width: 400px;
+    width: 350px;
     display: flex;
     flex-direction: column;
 }
@@ -436,19 +436,19 @@
     padding: 40px 65px 40px 20px;
     margin-top: 2em;
     margin-bottom: 20px;
-    border: 1px solid #3377dd9b;
+    border: 1px solid #3377dd;
     border-radius: 20px;
 }
 
 #page-03 #baloes .balao .year {
-    color: #086afc;
+    color: #3377dd;
     margin-bottom: 10px;
     font-size: 25px;
     font-weight: bold;
 }
 
 #page-03 #baloes .balao h2 {
-    color: #086afc;
+    color: #3377dd;
     font-size: 30px;
     font-weight: bold;
 }
