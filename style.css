@@ -22,7 +22,7 @@
     header {
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: space-around;
     }
 
     header h1 {
@@ -30,20 +30,19 @@
         color: #07367d;
         font-family: poppins,Arial, Helvetica, sans-serif;
         font-weight: bolder;
+        font-size: 50px;
     }
 
     header #navegation {
+        display: none;
+    }
+
+    header #links {
         display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 8vh;
     }
 
     header #menu {
-        color: #07367d;
-        position: relative;
-        top: 0.2em;
-        left: 8em;
+        display: none;
     }
 
     div#article {
@@ -51,8 +50,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        position: relative;
-        top: 7em;
+        margin-top: 7em;
     }
 
     section {
@@ -80,29 +78,28 @@
     }
 
     section p#rio {
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 500;
     }
 
-    section p#rio strong {
+    section p#developer {
         color: #07367d;
         font-weight: bold;
-        font-size: 20px;
+        font-size: 27px;
     }
 
     section #btn {
         display: flex;
         gap: 30px;
-        position: relative;
-        top: 2em;
+        margin-top: 2em;
     }
 
     section button {
-        padding: 20px 40px;
+        padding: 15px 45px;
         border-radius: 18px;
         border: none;
+        font-size: 20px;
         font-weight: 500;
-        font-size: 30px;
         cursor: pointer;
     }
 
@@ -127,9 +124,9 @@
         color: #ffffff;
     }
 
-     /*page-02*/
+    /*page-02*/
 
-     #page-02 {
+    #page-02 {
         height: 100vh;
         width: 100vw;
         display: flex;
@@ -154,7 +151,7 @@
 
     #page-02 #wellcome p {
         color: rgba(0, 0, 0, 0.539);
-        width: 320px;
+        width: 420px;
 }
 
 #page-02 #cards {
@@ -263,14 +260,14 @@
     }
 
     section p#rio {
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 500;
     }
 
-    section p#rio strong {
+    section p#developer {
         color: #07367d;
         font-weight: bold;
-        font-size: 24px;
+        font-size: 27px;
     }
 
     section #btn {
@@ -283,6 +280,7 @@
         padding: 15px 45px;
         border-radius: 18px;
         border: none;
+        font-size: 20px;
         font-weight: 500;
         cursor: pointer;
     }
