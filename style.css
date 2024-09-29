@@ -183,6 +183,48 @@
     position: relative;
     top: 50px;
 }
+
+#page-03 {
+    background-color: #bfd7f939;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-03 h2#title {
+    margin: 2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#page-03 #baloes {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-03 #baloes .balao {
+    background-color: rgb(255, 255, 255);
+    padding: 40px 65px 40px 20px;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    border: 1px solid #3377dd9b;
+    border-radius: 20px;
+}
+
+#page-03 #baloes .balao .year {
+    color: #086afc;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#page-03 #baloes .balao h2 {
+    color: #086afc;
+    font-size: 30px;
+    font-weight: bold;
+}
 }
 
 /*dispositivos medios*/
@@ -312,7 +354,7 @@
     /*page-02*/
 
     #page-02 {
-        height: 100vh;
+        height: 130vh;
         width: 100vw;
         display: flex;
         flex-direction: column;
@@ -330,7 +372,7 @@
 
     #page-02 #wellcome h2 {
         color: black;
-        font-size: 30px;
+        font-size: 25px;
         font-family: poppins, Arial, Helvetica, sans-serif;
     }
 
@@ -366,6 +408,52 @@
     position: relative;
     top: 50px;
 }
+
+            /*PAGE-03*/
+
+#page-03 {
+    background-color: #bfd7f939;
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#page-03 h2#title {
+    margin: 2em;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#page-03 #baloes {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#page-03 #baloes .balao {
+    background-color: rgb(255, 255, 255);
+    padding: 40px 65px 40px 20px;
+    margin-top: 2em;
+    margin-bottom: 20px;
+    border: 1px solid #3377dd9b;
+    border-radius: 20px;
+}
+
+#page-03 #baloes .balao .year {
+    color: #086afc;
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#page-03 #baloes .balao h2 {
+    color: #086afc;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
 
 }
 
