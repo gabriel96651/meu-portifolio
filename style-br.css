@@ -89,6 +89,7 @@
 
     .txt-animado span {
         position: relative;
+        margin-bottom: 1.2em;
     }
 
     .txt-animado span::before {
