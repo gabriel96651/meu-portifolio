@@ -527,7 +527,9 @@ div#page-04 #linha-03 .conjunto .links-03 .view:hover {
 
     div#page-01 {
         background-color: #6797e0;
-        height: 110vh;
+        height: 100vh;
+        width: 100vw;
+        overflow: hidden;
     }
 
     header {
@@ -668,7 +670,7 @@ div#page-04 #linha-03 .conjunto .links-03 .view:hover {
 
     section #btn {
         display: flex;
-        width: 400px;
+        width: 375px;
         gap: 30px;
         margin-top: 2em;
     }
