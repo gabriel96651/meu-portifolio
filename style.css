@@ -96,7 +96,7 @@
 
     section button {
         padding: 15px 23px;
-        width: 300px;
+        width: 380px;
         border-radius: 18px;
         border: none;
         font-size: 20px;
@@ -273,6 +273,7 @@
 
     section #btn {
         display: flex;
+        width: 380px;
         gap: 30px;
         margin-top: 2em;
     }
