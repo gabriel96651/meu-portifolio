@@ -9,6 +9,7 @@
     font-family: inter, arial;
     text-decoration: none;
     list-style: none;
+    scroll-behavior: smooth;
 }
 
 /*dispositivos pequenos*/
@@ -510,6 +511,14 @@ div#page-04 #linha-03 .conjunto .links-03 .view:hover {
     background-color: #6797e0;
     color: #ffffff;
 }
+
+/*seta voltar*/
+#seta {
+    color: #086afc;
+    font-size: 40px;
+    margin-left: 48%;
+    rotate: 90deg;
+}
 }
 
 /*dispositivos medios*/
@@ -522,6 +531,7 @@ div#page-04 #linha-03 .conjunto .links-03 .view:hover {
 /*dispositivos pequenos*/
 
 @media (min-width: 300px) and (max-width: 768px) {
+
 
             /*page-01*/
 
@@ -1038,7 +1048,12 @@ div#page-04 #linha-03 .conjunto .links-03 .view:hover {
     color: #ffffff;
 }
 
-
+#seta {
+    color: #086afc;
+    font-size: 40px;
+    margin-left: 48%;
+    rotate: 90deg;
+}
 
 }
 
