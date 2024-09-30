@@ -844,7 +844,6 @@ div#page-04 #linha-01 .conjunto {
 }
 
 div#page-04 #linha-01 .conjunto .card-principal {
-    border: 1px solid blue;
     height: 9em;
     border-radius: 15px;
     display: flex;
@@ -917,7 +916,7 @@ div#page-04 #linha-02 .conjunto {
 }
 
 div#page-04 #linha-02 .conjunto .card-principal {
-    border: 1px solid blue;
+
     height: 9em;
     border-radius: 15px;
     display: flex;
@@ -990,7 +989,6 @@ div#page-04 #linha-03 .conjunto {
 }
 
 div#page-04 #linha-03 .conjunto .card-principal {
-    border: 1px solid blue;
     height: 9em;
     border-radius: 15px;
     display: flex;
